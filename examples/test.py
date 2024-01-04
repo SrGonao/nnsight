@@ -1,4 +1,6 @@
 # The library is called nnsight
+import sys
+sys.path.append('/mnt/c/Users/g-spa/Desktop/nnsight/src/')
 from nnsight import LanguageModel
 import torch
 # Get model wrapper for any model you can get with AutoConfig.from_pretrained(model_name)
